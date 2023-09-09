@@ -1,0 +1,27 @@
+.btn-item{
+    margin: 15px;
+}
+
+@media (max-width: 576px){
+    .btn-item{
+        margin: 10px;
+    }
+}
+
+.btn{
+    border: 1px solid  #db1c48;
+    color: #db1c48;
+    cursor: pointer;
+    border-radius: 19px;
+    width: 79px;
+    height: 33px;
+    background-color: transparent;
+    font-family: "Roboto";
+}
+
+.active-btn{
+    color: #ffffff;
+    font-family: "Roboto";
+    border: none;
+    background-color: #db1c48;
+}
